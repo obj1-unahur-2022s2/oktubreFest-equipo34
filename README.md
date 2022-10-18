@@ -1,21 +1,34 @@
-# Oktubre Fest
-
-[Ein Prosit!](https://www.youtube.com/watch?v=DNxE5NQXLM4)
-
-En Münich-Alemania, todos los años se festeja la Oktubrefest. Para esta gran feria de comidas, entretenimientos y mucha cerveza nos piden construir un programa en objetos que modele el comportamiento de las personas en la fiesta. 
-
-Al entrar en la fiesta se pueden encontrar enormes carpas cerveceras, en donde muchísima gente se reune a . . . bueno . . . tomar cerveza. Queremos controlar la entrada a estas carpas dependiendo de la disponibilidad de la carpa y los gustos del público.
-
 
 ## Marcas y jarras
-Existen varias **marcas** de cerveza. Están las marcas de cerveza rubia (como la Corona), las marcas de cerveza negra (como la Guiness), y las marcas de cerveza roja (como la Hofbräu). De cada marca se sabe su contenido de lúpulo, o sea, cuántos gramos de lúpulo por litro llevan. También se conoce el país donde se fabrica.
+Existen varias **marcas** de cerveza. Están las marcas de cerveza rubia , 
+las marcas de cerveza negra , y las marcas de cerveza roja . 
 
-La graduación de una cerveza es su porcentaje de alcohol en volumen. P.ej. una cerveza de 10 % de graduación, tendrá 0.1 litro de alcohol por litro de cerveza: 
+De cada marca se sabe su contenido de lúpulo, o sea, cuántos gramos de lúpulo por litro llevan.
+ También se conoce el país donde se fabrica.
+
+
+
+La graduación de una cerveza es su porcentaje de alcohol en volumen. 
+P.ej. una cerveza de 10 % de graduación, tendrá 0.1 litro de alcohol por litro de cerveza: 
+
 * Cada marca de cerveza rubia tiene una graduación distinta. 
-* Por otro lado, la graduación de una marca de cerveza negra se calcula como el mínimo entre la graduación reglamentaria y el doble de su contenido de lúpulo. La graduación reglamentaria es mundial, o sea que es única para todas las marcas de cerveza negra del mundo; puede cambiar con el tiempo. 
-* La cerveza roja se fabrica con procedimientos similares a la de la cerveza negra, pero que concentran más el alcohol. Por lo tanto, la graduación de una marca de cerveza roja se calcula multiplicando el valor que correspondería a una cerveza negra con la misma configuración, por 1.25.
+* Por otro lado, la graduación de una marca de cerveza negra se calcula como el mínimo entre
+ la graduación reglamentaria y el doble de su contenido de lúpulo. La graduación reglamentaria es mundial,
+  o sea que es única para todas las marcas de cerveza negra del mundo; puede cambiar con el tiempo. 
+  
+* La cerveza roja se fabrica con procedimientos similares a la de la cerveza negra, pero que concentran
+ más el alcohol. Por lo tanto, la graduación de una marca de cerveza roja se calcula multiplicando el
+  valor que correspondería a una cerveza negra con la misma configuración, por 1.25.
 
-En la fiesta, la cerveza se vende en **jarras**. De cada jarra de cerveza sabemos su capacidad en litros y de qué marca es.
+En la fiesta, la cerveza se vende en **jarras**. De cada jarra de cerveza sabemos su capacidad en litros
+ y de qué marca es.
+
+
+
+
+
+
+
 
 ## Personas
 De cada persona se sabe su peso, las jarras de cerveza que compró hasta el momento, si le gusta escuchar música tradicional o no, y su nivel de aguante, que es un número. Una persona está ebria si la cantidad de alcohol que ingirió multiplicado por su peso supera su aguante. 
